@@ -1,0 +1,139 @@
+[ {
+  "typeString" : "Lorg/springframework/aop/framework/AdvisorChainFactory;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/springframework/aop/target/SingletonTargetSource;",
+  "serialVersion" : 9031246629662423738,
+  "fields" : [ {
+    "name" : "target",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/springframework/transaction/jta/JtaTransactionManager;",
+  "serialVersion" : 7077698284388892259,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "allowCustomIsolationLevels",
+    "typeString" : "Z"
+  }, {
+    "name" : "autodetectTransactionManager",
+    "typeString" : "Z"
+  }, {
+    "name" : "autodetectUserTransaction",
+    "typeString" : "Z"
+  }, {
+    "name" : "cacheUserTransaction",
+    "typeString" : "Z"
+  }, {
+    "name" : "userTransactionObtainedFromJndi",
+    "typeString" : "Z"
+  }, {
+    "name" : "transactionManagerName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "transactionSynchronizationRegistryName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "userTransactionName",
+    "typeString" : "Ljava/lang/String;"
+  } ],
+  "superType" : "Lorg/springframework/transaction/support/AbstractPlatformTransactionManager;"
+}, {
+  "typeString" : "Lorg/springframework/transaction/support/AbstractPlatformTransactionManager;",
+  "serialVersion" : 2389726905273490205,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "defaultTimeout",
+    "typeString" : "I"
+  }, {
+    "name" : "failEarlyOnGlobalRollbackOnly",
+    "typeString" : "Z"
+  }, {
+    "name" : "globalRollbackOnParticipationFailure",
+    "typeString" : "Z"
+  }, {
+    "name" : "nestedTransactionAllowed",
+    "typeString" : "Z"
+  }, {
+    "name" : "rollbackOnCommitFailure",
+    "typeString" : "Z"
+  }, {
+    "name" : "transactionSynchronization",
+    "typeString" : "I"
+  }, {
+    "name" : "validateExistingTransaction",
+    "typeString" : "Z"
+  } ]
+}, {
+  "typeString" : "Lorg/springframework/aop/framework/AdvisedSupport;",
+  "serialVersion" : 2651364800145442165,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "preFiltered",
+    "typeString" : "Z"
+  }, {
+    "name" : "advisorArray",
+    "typeString" : "[Lorg/springframework/aop/Advisor;"
+  }, {
+    "name" : "advisorChainFactory",
+    "typeString" : "Lorg/springframework/aop/framework/AdvisorChainFactory;"
+  }, {
+    "name" : "advisors",
+    "typeString" : "Ljava/util/List;"
+  }, {
+    "name" : "interfaces",
+    "typeString" : "Ljava/util/List;"
+  }, {
+    "name" : "targetSource",
+    "typeString" : "Lorg/springframework/aop/TargetSource;"
+  } ],
+  "superType" : "Lorg/springframework/aop/framework/ProxyConfig;"
+}, {
+  "typeString" : "Lorg/springframework/aop/Advisor;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/springframework/aop/framework/ProxyConfig;",
+  "serialVersion" : -8409359707199703185,
+  "fields" : [ {
+    "name" : "exposeProxy",
+    "typeString" : "Z"
+  }, {
+    "name" : "frozen",
+    "typeString" : "Z"
+  }, {
+    "name" : "opaque",
+    "typeString" : "Z"
+  }, {
+    "name" : "optimize",
+    "typeString" : "Z"
+  }, {
+    "name" : "proxyTargetClass",
+    "typeString" : "Z"
+  } ]
+}, {
+  "typeString" : "Lorg/springframework/aop/framework/DefaultAdvisorChainFactory;",
+  "serialVersion" : 6115154060221772279,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/springframework/aop/framework/JdkDynamicAopProxy;",
+  "serialVersion" : 5531744639992436476,
+  "fields" : [ {
+    "name" : "equalsDefined",
+    "typeString" : "Z"
+  }, {
+    "name" : "hashCodeDefined",
+    "typeString" : "Z"
+  }, {
+    "name" : "advised",
+    "typeString" : "Lorg/springframework/aop/framework/AdvisedSupport;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/List;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/springframework/aop/TargetSource;",
+  "fields" : [ ]
+} ]

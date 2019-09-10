@@ -1,0 +1,7 @@
+org.hibernate.type.ComponentType
+org.hibernate.tuple.component.PojoComponentTuplizer
+org.hibernate.property.Getter
+org.hibernate.property.BasicPropertyAccessor$BasicGetter
+org.hibernate.engine.TypedValue
+org.hibernate.tuple.component.ComponentEntityModeToTuplizerMapping
+org.hibernate.EntityMode

@@ -1,0 +1,12 @@
+org.apache.commons.collections4.Transformer 
+org.apache.commons.collections4.functors.ChainedTransformer 
+org.apache.commons.collections4.functors.ConstantTransformer 
+org.apache.commons.collections4.functors.InvokerTransformer 
+org.apache.commons.collections4.functors.InstantiateTransformer 
+org.apache.commons.collections4.keyvalue.TiedMapEntry 
+org.apache.commons.collections4.map.LazyMap
+org.apache.commons.collections4.functors.TransformedPredicate
+org.apache.commons.collections4.functors.SwitchTransformer
+org.apache.commons.collections4.functors.NotPredicate
+org.apache.commons.collections4.functors.EqualPredicate
+org.apache.commons.collections4.Predicate

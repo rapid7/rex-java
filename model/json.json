@@ -1,0 +1,15 @@
+[ {
+  "typeString" : "Lnet/sf/json/JSONArray;",
+  "serialVersion" : 3624479407289366714,
+  "fields" : [ {
+    "name" : "expandElements",
+    "typeString" : "Z"
+  }, {
+    "name" : "elements",
+    "typeString" : "Ljava/util/List;"
+  } ],
+  "superType" : "Lnet/sf/json/AbstractJSON;"
+}, {
+  "typeString" : "Ljava/util/List;",
+  "fields" : [ ]
+} ]

@@ -1,0 +1,6 @@
+org.springframework.transaction.jta.JtaTransactionManager
+org.springframework.aop.framework.JdkDynamicAopProxy
+org.springframework.aop.framework.AdvisedSupport
+org.springframework.aop.target.SingletonTargetSource
+org.springframework.aop.framework.DefaultAdvisorChainFactory
+org.springframework.aop.Advisor

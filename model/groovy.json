@@ -1,0 +1,132 @@
+[ {
+  "typeString" : "Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;",
+  "serialVersion" : 7373984972572414691,
+  "fields" : [ {
+    "name" : "state",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/concurrent/locks/AbstractOwnableSynchronizer;"
+}, {
+  "typeString" : "Lorg/codehaus/groovy/runtime/ConversionHandler;",
+  "serialVersion" : 1162833717190835227,
+  "fields" : [ {
+    "name" : "delegate",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "handleCache",
+    "typeString" : "Ljava/util/concurrent/ConcurrentHashMap;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/concurrent/ConcurrentHashMap;",
+  "serialVersion" : 7249069246763182397,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "segmentMask",
+    "typeString" : "I"
+  }, {
+    "name" : "segmentShift",
+    "typeString" : "I"
+  }, {
+    "name" : "segments",
+    "typeString" : "[Ljava/util/concurrent/ConcurrentHashMap$Segment;"
+  } ],
+  "superType" : "Ljava/util/AbstractMap;"
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/concurrent/locks/ReentrantLock$Sync;",
+  "serialVersion" : -5179523762034025860,
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "superType" : "Ljava/util/concurrent/locks/AbstractQueuedSynchronizer;"
+}, {
+  "typeString" : "Ljava/util/concurrent/locks/AbstractOwnableSynchronizer;",
+  "serialVersion" : 3737899427754241961,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/codehaus/groovy/runtime/MethodClosure;",
+  "serialVersion" : 1228988487386910280,
+  "fields" : [ {
+    "name" : "method",
+    "typeString" : "Ljava/lang/String;"
+  } ],
+  "superType" : "Lgroovy/lang/Closure;"
+}, {
+  "typeString" : "Lorg/codehaus/groovy/runtime/ConvertedClosure;",
+  "serialVersion" : 1162833713450835227,
+  "fields" : [ {
+    "name" : "methodName",
+    "typeString" : "Ljava/lang/String;"
+  } ],
+  "superType" : "Lorg/codehaus/groovy/runtime/ConversionHandler;"
+}, {
+  "typeString" : "Ljava/util/concurrent/ConcurrentHashMap$Segment;",
+  "serialVersion" : 2249069246763182397,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  } ],
+  "superType" : "Ljava/util/concurrent/locks/ReentrantLock;"
+}, {
+  "typeString" : "Lorg/codehaus/groovy/runtime/GStringImpl;",
+  "serialVersion" : 3581289038662723858,
+  "fields" : [ {
+    "name" : "strings",
+    "typeString" : "[Ljava/lang/String;"
+  } ],
+  "superType" : "Lgroovy/lang/GString;"
+}, {
+  "typeString" : "Lgroovy/lang/GString;",
+  "serialVersion" : -2638020355892246323,
+  "fields" : [ {
+    "name" : "values",
+    "typeString" : "[Ljava/lang/Object;"
+  } ],
+  "superType" : "Lgroovy/lang/GroovyObjectSupport;"
+}, {
+  "typeString" : "Ljava/lang/String;",
+  "serialVersion" : -6849794470754667710,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lgroovy/lang/Closure;",
+  "serialVersion" : 4368710879820278874,
+  "fields" : [ {
+    "name" : "directive",
+    "typeString" : "I"
+  }, {
+    "name" : "maximumNumberOfParameters",
+    "typeString" : "I"
+  }, {
+    "name" : "resolveStrategy",
+    "typeString" : "I"
+  }, {
+    "name" : "bcw",
+    "typeString" : "Lorg/codehaus/groovy/runtime/callsite/BooleanClosureWrapper;"
+  }, {
+    "name" : "delegate",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "owner",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "parameterTypes",
+    "typeString" : "[Ljava/lang/Class;"
+  }, {
+    "name" : "thisObject",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Lgroovy/lang/GroovyObjectSupport;"
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/concurrent/locks/ReentrantLock;",
+  "serialVersion" : 7373984872572414699,
+  "fields" : [ {
+    "name" : "sync",
+    "typeString" : "Ljava/util/concurrent/locks/ReentrantLock$Sync;"
+  } ]
+} ]

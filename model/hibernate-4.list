@@ -1,0 +1,5 @@
+org.hibernate.type.ComponentType
+org.hibernate.tuple.component.PojoComponentTuplizer
+org.hibernate.engine.spi.TypedValue
+org.hibernate.property.Getter
+org.hibernate.property.BasicPropertyAccessor$BasicGetter

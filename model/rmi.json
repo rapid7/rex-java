@@ -1,0 +1,290 @@
+[ {
+  "typeString" : "Ljava/rmi/activation/ActivationGroup;",
+  "serialVersion" : -7696947875314805420,
+  "fields" : [ {
+    "name" : "incarnation",
+    "typeString" : "J"
+  }, {
+    "name" : "groupID",
+    "typeString" : "Ljava/rmi/activation/ActivationGroupID;"
+  }, {
+    "name" : "monitor",
+    "typeString" : "Ljava/rmi/activation/ActivationMonitor;"
+  } ],
+  "superType" : "Ljava/rmi/server/UnicastRemoteObject;"
+}, {
+  "typeString" : "Ljava/rmi/server/RemoteServer;",
+  "serialVersion" : -4100238210092549637,
+  "fields" : [ ],
+  "superType" : "Ljava/rmi/server/RemoteObject;"
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljavax/naming/Reference;",
+  "serialVersion" : -1673475790065791735,
+  "fields" : [ {
+    "name" : "addrs",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "classFactory",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "classFactoryLocation",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "className",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/rmi/server/ObjID;",
+  "serialVersion" : -6386392263968365220,
+  "fields" : [ {
+    "name" : "objNum",
+    "typeString" : "J"
+  }, {
+    "name" : "space",
+    "typeString" : "Ljava/rmi/server/UID;"
+  } ]
+}, {
+  "typeString" : "Lcom/sun/jndi/rmi/registry/ReferenceWrapper;",
+  "serialVersion" : 6078186197417641456,
+  "fields" : [ {
+    "name" : "wrappee",
+    "typeString" : "Ljavax/naming/Reference;"
+  } ],
+  "superType" : "Ljava/rmi/server/UnicastRemoteObject;"
+}, {
+  "typeString" : "Ljava/util/Vector;",
+  "serialVersion" : -2767605614048989439,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "capacityIncrement",
+    "typeString" : "I"
+  }, {
+    "name" : "elementCount",
+    "typeString" : "I"
+  }, {
+    "name" : "elementData",
+    "typeString" : "[Ljava/lang/Object;"
+  } ],
+  "superType" : "Ljava/util/AbstractList;"
+}, {
+  "typeString" : "Lsun/rmi/server/UnicastServerRef;",
+  "serialVersion" : -7384275867073752268,
+  "externalizable" : true,
+  "fields" : [ ],
+  "superType" : "Lsun/rmi/server/UnicastRef;"
+}, {
+  "typeString" : "Ljava/rmi/MarshalException;",
+  "serialVersion" : 6223554758134037936,
+  "fields" : [ ],
+  "superType" : "Ljava/rmi/RemoteException;"
+}, {
+  "typeString" : "Ljava/io/IOException;",
+  "serialVersion" : 7818375828146090155,
+  "fields" : [ ],
+  "superType" : "Ljava/lang/Exception;"
+}, {
+  "typeString" : "Ljava/lang/StackTraceElement;",
+  "serialVersion" : 6992337162326171013,
+  "fields" : [ {
+    "name" : "lineNumber",
+    "typeString" : "I"
+  }, {
+    "name" : "declaringClass",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "fileName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "methodName",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Lsun/rmi/server/UnicastRef2;",
+  "serialVersion" : 1829537514995881838,
+  "externalizable" : true,
+  "fields" : [ ],
+  "superType" : "Lsun/rmi/server/UnicastRef;"
+}, {
+  "typeString" : "Ljava/util/Hashtable;",
+  "serialVersion" : 1421746759512286392,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/Dictionary;"
+}, {
+  "typeString" : "Ljava/rmi/activation/ActivationDesc;",
+  "serialVersion" : 7455834104417690957,
+  "fields" : [ {
+    "name" : "restart",
+    "typeString" : "Z"
+  }, {
+    "name" : "className",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "data",
+    "typeString" : "Ljava/rmi/MarshalledObject;"
+  }, {
+    "name" : "groupID",
+    "typeString" : "Ljava/rmi/activation/ActivationGroupID;"
+  }, {
+    "name" : "location",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/rmi/server/RMIClientSocketFactory;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/server/RemoteRef;",
+  "serialVersion" : 3632638527362204081,
+  "externalizable" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/activation/ActivationSystem;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/activation/ActivationID;",
+  "serialVersion" : -4608673054848209235,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljavax/management/ObjectName;",
+  "serialVersion" : 1081892073854801359,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Throwable;",
+  "serialVersion" : -3042686055658047285,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "cause",
+    "typeString" : "Ljava/lang/Throwable;"
+  }, {
+    "name" : "detailMessage",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "stackTrace",
+    "typeString" : "[Ljava/lang/StackTraceElement;"
+  }, {
+    "name" : "suppressedExceptions",
+    "typeString" : "Ljava/util/List;"
+  } ]
+}, {
+  "typeString" : "Ljava/rmi/server/UID;",
+  "serialVersion" : 1086053664494604050,
+  "fields" : [ {
+    "name" : "count",
+    "typeString" : "S"
+  }, {
+    "name" : "time",
+    "typeString" : "J"
+  }, {
+    "name" : "unique",
+    "typeString" : "I"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Exception;",
+  "serialVersion" : -3387516993124229948,
+  "fields" : [ ],
+  "superType" : "Ljava/lang/Throwable;"
+}, {
+  "typeString" : "Lsun/rmi/server/UnicastRef;",
+  "serialVersion" : 8258372400816541186,
+  "externalizable" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/server/RMIServerSocketFactory;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/activation/ActivationGroupID;",
+  "serialVersion" : -1648432278909740833,
+  "fields" : [ {
+    "name" : "system",
+    "typeString" : "Ljava/rmi/activation/ActivationSystem;"
+  }, {
+    "name" : "uid",
+    "typeString" : "Ljava/rmi/server/UID;"
+  } ]
+}, {
+  "typeString" : "Ljava/rmi/activation/ActivationMonitor;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/server/UnicastRemoteObject;",
+  "serialVersion" : 4974527148936298033,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "port",
+    "typeString" : "I"
+  }, {
+    "name" : "csf",
+    "typeString" : "Ljava/rmi/server/RMIClientSocketFactory;"
+  }, {
+    "name" : "ssf",
+    "typeString" : "Ljava/rmi/server/RMIServerSocketFactory;"
+  } ],
+  "superType" : "Ljava/rmi/server/RemoteServer;"
+}, {
+  "typeString" : "Ljava/rmi/MarshalledObject;",
+  "serialVersion" : 8988374069173025854,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "hash",
+    "typeString" : "I"
+  }, {
+    "name" : "locBytes",
+    "typeString" : "[B"
+  }, {
+    "name" : "objBytes",
+    "typeString" : "[B"
+  } ]
+}, {
+  "typeString" : "Lsun/rmi/server/ActivationGroupImpl;",
+  "serialVersion" : 5758693559430427303,
+  "fields" : [ {
+    "name" : "groupInactive",
+    "typeString" : "Z"
+  }, {
+    "name" : "active",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "groupID",
+    "typeString" : "Ljava/rmi/activation/ActivationGroupID;"
+  }, {
+    "name" : "lockedIDs",
+    "typeString" : "Ljava/util/List;"
+  } ],
+  "superType" : "Ljava/rmi/activation/ActivationGroup;"
+}, {
+  "typeString" : "Ljava/rmi/server/RemoteObjectInvocationHandler;",
+  "serialVersion" : 2,
+  "fields" : [ ],
+  "superType" : "Ljava/rmi/server/RemoteObject;"
+}, {
+  "typeString" : "Ljava/rmi/server/RemoteObject;",
+  "serialVersion" : -3215090123894869218,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/List;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/rmi/RemoteException;",
+  "serialVersion" : -5148567311918794206,
+  "fields" : [ {
+    "name" : "detail",
+    "typeString" : "Ljava/lang/Throwable;"
+  } ],
+  "superType" : "Ljava/io/IOException;"
+} ]

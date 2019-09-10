@@ -1,0 +1,149 @@
+[ {
+  "typeString" : "Lorg/jboss/weld/interceptor/reader/SimpleInterceptorMetadata;",
+  "serialVersion" : 1247010247012491,
+  "fields" : [ {
+    "name" : "targetClass",
+    "typeString" : "Z"
+  }, {
+    "name" : "interceptorMethodMap",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "interceptorReference",
+    "typeString" : "Lorg/jboss/weld/interceptor/spi/metadata/InterceptorReference;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/spi/model/InterceptionModel;",
+  "serialVersion" : 3800260388412693137,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/reader/DefaultMethodMetadata;",
+  "serialVersion" : -4538617003189564552,
+  "hasWriteReplace" : true,
+  "fields" : [ {
+    "name" : "javaMethod",
+    "typeString" : "Ljava/lang/reflect/Method;"
+  }, {
+    "name" : "supportedInterceptorTypes",
+    "typeString" : "Ljava/util/Set;"
+  } ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/builder/InterceptionModelImpl;",
+  "serialVersion" : -6305682630007991118,
+  "fields" : [ {
+    "name" : "allInterceptors",
+    "typeString" : "Ljava/util/Set;"
+  }, {
+    "name" : "globalInterceptors",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "interceptedEntity",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "methodBoundInterceptors",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "methodsIgnoringGlobals",
+    "typeString" : "Ljava/util/Set;"
+  } ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/spi/metadata/InterceptorMetadata;",
+  "serialVersion" : 371443275291423371,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/reader/DefaultMethodMetadata$DefaultMethodMetadataSerializationProxy;",
+  "serialVersion" : 4941911058238340873,
+  "fields" : [ {
+    "name" : "methodReference",
+    "typeString" : "Lorg/jboss/weld/interceptor/builder/MethodReference;"
+  }, {
+    "name" : "supportedInterceptionTypes",
+    "typeString" : "Ljava/util/Set;"
+  } ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/spi/metadata/ClassMetadata;",
+  "serialVersion" : 3638961659963755375,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/proxy/DefaultInvocationContextFactory;",
+  "serialVersion" : -4084466041606358073,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/spi/context/InvocationContextFactory;",
+  "serialVersion" : 3489968655454592693,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/reader/ClassMetadataInterceptorReference;",
+  "serialVersion" : -619464974130150607,
+  "fields" : [ {
+    "name" : "classMetadata",
+    "typeString" : "Lorg/jboss/weld/interceptor/spi/metadata/ClassMetadata;"
+  } ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/proxy/InterceptorMethodHandler;",
+  "serialVersion" : -3679178863451158351,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "interceptionModel",
+    "typeString" : "Lorg/jboss/weld/interceptor/spi/model/InterceptionModel;"
+  }, {
+    "name" : "interceptorHandlerInstances",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "invocationContextFactory",
+    "typeString" : "Lorg/jboss/weld/interceptor/spi/context/InvocationContextFactory;"
+  }, {
+    "name" : "targetClassInterceptorMetadata",
+    "typeString" : "Lorg/jboss/weld/interceptor/spi/metadata/InterceptorMetadata;"
+  }, {
+    "name" : "targetInstance",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/Set;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Enum;",
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "enum" : true
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/spi/model/InterceptionType;",
+  "fields" : [ ],
+  "superType" : "Ljava/lang/Enum;",
+  "enum" : true
+}, {
+  "typeString" : "Ljava/util/Map;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/spi/metadata/InterceptorReference;",
+  "serialVersion" : -7528222629304333486,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/reader/ReflectiveClassMetadata;",
+  "serialVersion" : -2088679292389273922,
+  "fields" : [ {
+    "name" : "clazz",
+    "typeString" : "Ljava/lang/Class;"
+  } ]
+}, {
+  "typeString" : "Lorg/jboss/weld/interceptor/builder/MethodReference;",
+  "serialVersion" : -1014976544299201873,
+  "fields" : [ {
+    "name" : "declaringClass",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "methodName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "parameterTypes",
+    "typeString" : "[Ljava/lang/Class;"
+  } ]
+} ]

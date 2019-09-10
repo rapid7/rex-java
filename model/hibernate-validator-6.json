@@ -1,0 +1,34 @@
+[ {
+  "typeString" : "Lorg/hibernate/validator/internal/util/annotation/AnnotationDescriptor;",
+  "serialVersion" : 1060851947034136949,
+  "fields" : [ {
+    "name" : "hashCode",
+    "typeString" : "I"
+  }, {
+    "name" : "annotation",
+    "typeString" : "Ljava/lang/annotation/Annotation;"
+  }, {
+    "name" : "attributes",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "type",
+    "typeString" : "Ljava/lang/Class;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/validator/internal/util/annotation/AnnotationProxy;",
+  "serialVersion" : 6907601010599429454,
+  "fields" : [ {
+    "name" : "descriptor",
+    "typeString" : "Lorg/hibernate/validator/internal/util/annotation/AnnotationDescriptor;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/annotation/Annotation;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/Map;",
+  "fields" : [ ]
+} ]

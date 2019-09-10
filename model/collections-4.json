@@ -1,0 +1,116 @@
+[ {
+  "typeString" : "Lorg/apache/commons/collections4/Transformer;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/keyvalue/TiedMapEntry;",
+  "serialVersion" : -8453869361373831205,
+  "fields" : [ {
+    "name" : "key",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "map",
+    "typeString" : "Ljava/util/Map;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/NotPredicate;",
+  "serialVersion" : -2654603322338049674,
+  "fields" : [ {
+    "name" : "iPredicate",
+    "typeString" : "Lorg/apache/commons/collections4/Predicate;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/TransformedPredicate;",
+  "serialVersion" : -5596090919668315834,
+  "fields" : [ {
+    "name" : "iPredicate",
+    "typeString" : "Lorg/apache/commons/collections4/Predicate;"
+  }, {
+    "name" : "iTransformer",
+    "typeString" : "Lorg/apache/commons/collections4/Transformer;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/InvokerTransformer;",
+  "serialVersion" : -8653385846894047688,
+  "fields" : [ {
+    "name" : "iArgs",
+    "typeString" : "[Ljava/lang/Object;"
+  }, {
+    "name" : "iMethodName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "iParamTypes",
+    "typeString" : "[Ljava/lang/Class;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/ChainedTransformer;",
+  "serialVersion" : 3514945074733160196,
+  "fields" : [ {
+    "name" : "iTransformers",
+    "typeString" : "[Lorg/apache/commons/collections4/Transformer;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/EqualPredicate;",
+  "serialVersion" : 5633766978029907089,
+  "fields" : [ {
+    "name" : "equator",
+    "typeString" : "Lorg/apache/commons/collections4/Equator;"
+  }, {
+    "name" : "iValue",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/InstantiateTransformer;",
+  "serialVersion" : 3786388740793356347,
+  "fields" : [ {
+    "name" : "iArgs",
+    "typeString" : "[Ljava/lang/Object;"
+  }, {
+    "name" : "iParamTypes",
+    "typeString" : "[Ljava/lang/Class;"
+  } ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/map/LazyMap;",
+  "serialVersion" : 7990956402564206740,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "factory",
+    "typeString" : "Lorg/apache/commons/collections4/Transformer;"
+  } ],
+  "superType" : "Lorg/apache/commons/collections4/map/AbstractMapDecorator;"
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/Predicate;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/SwitchTransformer;",
+  "serialVersion" : -6404460890903469332,
+  "fields" : [ {
+    "name" : "iDefault",
+    "typeString" : "Lorg/apache/commons/collections4/Transformer;"
+  }, {
+    "name" : "iPredicates",
+    "typeString" : "[Lorg/apache/commons/collections4/Predicate;"
+  }, {
+    "name" : "iTransformers",
+    "typeString" : "[Lorg/apache/commons/collections4/Transformer;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/Map;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/Equator;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/apache/commons/collections4/functors/ConstantTransformer;",
+  "serialVersion" : 6374440726369055124,
+  "fields" : [ {
+    "name" : "iConstant",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+} ]

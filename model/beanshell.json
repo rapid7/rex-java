@@ -1,0 +1,276 @@
+[ {
+  "typeString" : "Lbsh/XThis;",
+  "serialVersion" : 8299374466527811818,
+  "fields" : [ {
+    "name" : "interfaces",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "invocationHandler",
+    "typeString" : "Ljava/lang/reflect/InvocationHandler;"
+  } ],
+  "superType" : "Lbsh/This;"
+}, {
+  "typeString" : "Lbsh/BSHPrimarySuffix;",
+  "serialVersion" : -1787222033238474243,
+  "fields" : [ {
+    "name" : "operation",
+    "typeString" : "I"
+  }, {
+    "name" : "field",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "index",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Lbsh/BSHAmbiguousName;",
+  "serialVersion" : -5463192617696168744,
+  "fields" : [ {
+    "name" : "text",
+    "typeString" : "Ljava/lang/String;"
+  } ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Lbsh/NameSpace;",
+  "serialVersion" : -341879073815835886,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "isClass",
+    "typeString" : "Z"
+  }, {
+    "name" : "isMethod",
+    "typeString" : "Z"
+  }, {
+    "name" : "callerInfoNode",
+    "typeString" : "Lbsh/SimpleNode;"
+  }, {
+    "name" : "classInstance",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "classStatic",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "importedClasses",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "importedCommands",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "importedObjects",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "importedPackages",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "importedStatic",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "methods",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "nameSourceListeners",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "names",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "nsName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "packageName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "parent",
+    "typeString" : "Lbsh/NameSpace;"
+  }, {
+    "name" : "thisReference",
+    "typeString" : "Lbsh/This;"
+  }, {
+    "name" : "variables",
+    "typeString" : "Ljava/util/Hashtable;"
+  } ]
+}, {
+  "typeString" : "Lbsh/XThis$Handler;",
+  "serialVersion" : 4041428789013517368,
+  "fields" : [ {
+    "name" : "this$0",
+    "typeString" : "Lbsh/XThis;"
+  } ]
+}, {
+  "typeString" : "Lbsh/Modifiers;",
+  "serialVersion" : 8471185022017946576,
+  "fields" : [ {
+    "name" : "modifiers",
+    "typeString" : "Ljava/util/Hashtable;"
+  } ]
+}, {
+  "typeString" : "Lbsh/This;",
+  "serialVersion" : -9164318017112736976,
+  "fields" : [ {
+    "name" : "namespace",
+    "typeString" : "Lbsh/NameSpace;"
+  } ]
+}, {
+  "typeString" : "Lbsh/BSHBlock;",
+  "serialVersion" : -6768276487850608921,
+  "fields" : [ {
+    "name" : "isSynchronized",
+    "typeString" : "Z"
+  } ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Lbsh/BSHArguments;",
+  "serialVersion" : -585523412586448725,
+  "fields" : [ ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Ljava/lang/String;",
+  "serialVersion" : -6849794470754667710,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lbsh/BSHPrimaryExpression;",
+  "serialVersion" : -503393472352053812,
+  "fields" : [ ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Lbsh/SimpleNode;",
+  "serialVersion" : 5443864013386003037,
+  "fields" : [ {
+    "name" : "id",
+    "typeString" : "I"
+  }, {
+    "name" : "children",
+    "typeString" : "[Lbsh/Node;"
+  }, {
+    "name" : "firstToken",
+    "typeString" : "Lbsh/Token;"
+  }, {
+    "name" : "lastToken",
+    "typeString" : "Lbsh/Token;"
+  }, {
+    "name" : "parent",
+    "typeString" : "Lbsh/Node;"
+  }, {
+    "name" : "sourceFile",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Lbsh/BshMethod;",
+  "serialVersion" : 6335918737638083070,
+  "fields" : [ {
+    "name" : "numArgs",
+    "typeString" : "I"
+  }, {
+    "name" : "cparamTypes",
+    "typeString" : "[Ljava/lang/Class;"
+  }, {
+    "name" : "creturnType",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "declaringNameSpace",
+    "typeString" : "Lbsh/NameSpace;"
+  }, {
+    "name" : "javaMethod",
+    "typeString" : "Ljava/lang/reflect/Method;"
+  }, {
+    "name" : "javaObject",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "methodBody",
+    "typeString" : "Lbsh/BSHBlock;"
+  }, {
+    "name" : "modifiers",
+    "typeString" : "Lbsh/Modifiers;"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "paramNames",
+    "typeString" : "[Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/reflect/InvocationHandler;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lbsh/BSHMethodInvocation;",
+  "serialVersion" : 3850040841809657514,
+  "fields" : [ ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Ljava/util/Hashtable;",
+  "serialVersion" : 1421746759512286392,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/Dictionary;"
+}, {
+  "typeString" : "Lbsh/Node;",
+  "serialVersion" : -2644802814842716114,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lbsh/BSHLiteral;",
+  "serialVersion" : -9207502592290153353,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Lbsh/SimpleNode;"
+}, {
+  "typeString" : "Ljava/util/Vector;",
+  "serialVersion" : -2767605614048989439,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "capacityIncrement",
+    "typeString" : "I"
+  }, {
+    "name" : "elementCount",
+    "typeString" : "I"
+  }, {
+    "name" : "elementData",
+    "typeString" : "[Ljava/lang/Object;"
+  } ],
+  "superType" : "Ljava/util/AbstractList;"
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lbsh/Token;",
+  "serialVersion" : -1762483667756877906,
+  "fields" : [ {
+    "name" : "beginColumn",
+    "typeString" : "I"
+  }, {
+    "name" : "beginLine",
+    "typeString" : "I"
+  }, {
+    "name" : "endColumn",
+    "typeString" : "I"
+  }, {
+    "name" : "endLine",
+    "typeString" : "I"
+  }, {
+    "name" : "kind",
+    "typeString" : "I"
+  }, {
+    "name" : "image",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "next",
+    "typeString" : "Lbsh/Token;"
+  }, {
+    "name" : "specialToken",
+    "typeString" : "Lbsh/Token;"
+  } ]
+} ]

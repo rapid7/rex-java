@@ -1,0 +1,144 @@
+[ {
+  "typeString" : "Ljava/util/Map;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/NativeObject;",
+  "serialVersion" : -6345305608474346996,
+  "fields" : [ ],
+  "superType" : "Lorg/mozilla/javascript/IdScriptableObject;"
+}, {
+  "typeString" : "Lorg/mozilla/javascript/ScriptableObject;",
+  "serialVersion" : 7335823325303937252,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "count",
+    "typeString" : "I"
+  }, {
+    "name" : "associatedValues",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "parentScopeObject",
+    "typeString" : "Lorg/mozilla/javascript/Scriptable;"
+  }, {
+    "name" : "prototypeObject",
+    "typeString" : "Lorg/mozilla/javascript/Scriptable;"
+  } ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/ScriptableObject$GetterSlot;",
+  "serialVersion" : -4900574849788797588,
+  "fields" : [ {
+    "name" : "getter",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "setter",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Lorg/mozilla/javascript/ScriptableObject$Slot;"
+}, {
+  "typeString" : "Lorg/mozilla/javascript/MemberBox;",
+  "serialVersion" : 6358550398665688245,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/Scriptable;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/tools/shell/Environment;",
+  "serialVersion" : -430727378460177065,
+  "fields" : [ {
+    "name" : "thePrototypeInstance",
+    "typeString" : "Lorg/mozilla/javascript/tools/shell/Environment;"
+  } ],
+  "superType" : "Lorg/mozilla/javascript/ScriptableObject;"
+}, {
+  "typeString" : "Lorg/mozilla/javascript/NativeJavaMethod;",
+  "serialVersion" : -3440381785576412928,
+  "fields" : [ {
+    "name" : "functionName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "methods",
+    "typeString" : "[Lorg/mozilla/javascript/MemberBox;"
+  } ],
+  "superType" : "Lorg/mozilla/javascript/BaseFunction;"
+}, {
+  "typeString" : "Lorg/mozilla/javascript/NativeJavaObject;",
+  "serialVersion" : -6948590651130498591,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "parent",
+    "typeString" : "Lorg/mozilla/javascript/Scriptable;"
+  }, {
+    "name" : "prototype",
+    "typeString" : "Lorg/mozilla/javascript/Scriptable;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/ScriptableObject$Slot;",
+  "serialVersion" : -6090581677123995491,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "attributes",
+    "typeString" : "S"
+  }, {
+    "name" : "indexOrHash",
+    "typeString" : "I"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "value",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/BaseFunction;",
+  "serialVersion" : 5311394446546053859,
+  "fields" : [ {
+    "name" : "prototypePropertyAttributes",
+    "typeString" : "I"
+  }, {
+    "name" : "prototypeProperty",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Lorg/mozilla/javascript/IdScriptableObject;"
+}, {
+  "typeString" : "Lorg/mozilla/javascript/NativeJavaArray;",
+  "serialVersion" : -924022554283675333,
+  "fields" : [ {
+    "name" : "length",
+    "typeString" : "I"
+  }, {
+    "name" : "array",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "cls",
+    "typeString" : "Ljava/lang/Class;"
+  } ],
+  "superType" : "Lorg/mozilla/javascript/NativeJavaObject;"
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/ClassCache;",
+  "serialVersion" : -8866246036237312215,
+  "fields" : [ {
+    "name" : "cachingIsEnabled",
+    "typeString" : "Z"
+  }, {
+    "name" : "generatedClassSerial",
+    "typeString" : "I"
+  } ]
+}, {
+  "typeString" : "Lorg/mozilla/javascript/IdScriptableObject;",
+  "serialVersion" : 3038645279153854371,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "superType" : "Lorg/mozilla/javascript/ScriptableObject;"
+} ]

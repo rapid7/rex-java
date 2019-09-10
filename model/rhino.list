@@ -1,0 +1,10 @@
+org.mozilla.javascript.ScriptableObject
+org.mozilla.javascript.ScriptableObject$GetterSlot
+org.mozilla.javascript.Context
+org.mozilla.javascript.NativeJavaMethod
+org.mozilla.javascript.MemberBox
+org.mozilla.javascript.NativeJavaObject
+org.mozilla.javascript.NativeJavaArray
+org.mozilla.javascript.NativeObject
+org.mozilla.javascript.ClassCache
+org.mozilla.javascript.tools.shell.Environment

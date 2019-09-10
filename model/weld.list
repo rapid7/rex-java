@@ -1,0 +1,10 @@
+org.jboss.weld.interceptor.reader.SimpleInterceptorMetadata
+org.jboss.weld.interceptor.reader.ClassMetadataInterceptorReference
+org.jboss.weld.interceptor.reader.DefaultMethodMetadata
+org.jboss.weld.interceptor.builder.InterceptionModelImpl
+org.jboss.weld.interceptor.spi.model.InterceptionType
+org.jboss.weld.interceptor.proxy.InterceptorMethodHandler
+org.jboss.weld.interceptor.proxy.DefaultInvocationContextFactory
+org.jboss.weld.interceptor.reader.ReflectiveClassMetadata
+org.jboss.weld.interceptor.reader.DefaultMethodMetadata$DefaultMethodMetadataSerializationProxy
+org.jboss.weld.interceptor.builder.MethodReference

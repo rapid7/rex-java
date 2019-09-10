@@ -1,0 +1,27 @@
+[ {
+  "typeString" : "Lorg/apache/xalan/xsltc/trax/TemplatesImpl;",
+  "serialVersion" : 673094361519270707,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "_indentNumber",
+    "typeString" : "I"
+  }, {
+    "name" : "_transletIndex",
+    "typeString" : "I"
+  }, {
+    "name" : "_auxClasses",
+    "typeString" : "Lorg/apache/xalan/xsltc/runtime/Hashtable;"
+  }, {
+    "name" : "_bytecodes",
+    "typeString" : "[[B"
+  }, {
+    "name" : "_class",
+    "typeString" : "[Ljava/lang/Class;"
+  }, {
+    "name" : "_name",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "_outputProperties",
+    "typeString" : "Ljava/util/Properties;"
+  } ]
+} ]

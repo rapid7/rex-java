@@ -1,0 +1,152 @@
+[ {
+  "typeString" : "Ljavax/naming/Reference;",
+  "serialVersion" : -1673475790065791735,
+  "fields" : [ {
+    "name" : "addrs",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "classFactory",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "classFactoryLocation",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "className",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Lcom/mchange/v2/c3p0/impl/PoolBackedDataSourceBase;",
+  "serialVersion" : 1,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "numHelperThreads",
+    "typeString" : "I"
+  }, {
+    "name" : "connectionPoolDataSource",
+    "typeString" : "Ljavax/sql/ConnectionPoolDataSource;"
+  }, {
+    "name" : "dataSourceName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "extensions",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "factoryClassLocation",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "identityToken",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "pcs",
+    "typeString" : "Ljava/beans/PropertyChangeSupport;"
+  }, {
+    "name" : "vcs",
+    "typeString" : "Ljava/beans/VetoableChangeSupport;"
+  } ],
+  "superType" : "Lcom/mchange/v2/c3p0/impl/IdentityTokenResolvable;"
+}, {
+  "typeString" : "Ljava/beans/VetoableChangeSupport;",
+  "serialVersion" : -5090210921595982017,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "vetoableChangeSupportSerializedDataVersion",
+    "typeString" : "I"
+  }, {
+    "name" : "children",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "source",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljavax/sql/ConnectionPoolDataSource;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljavax/naming/Name;",
+  "serialVersion" : -3617482732056931635,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lcom/mchange/v2/ser/IndirectlySerialized;",
+  "serialVersion" : 2387405581446780103,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/Hashtable;",
+  "serialVersion" : 1421746759512286392,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/Dictionary;"
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lcom/mchange/v2/naming/ReferenceIndirector$ReferenceSerialized;",
+  "serialVersion" : 7068828222043636243,
+  "fields" : [ {
+    "name" : "contextName",
+    "typeString" : "Ljavax/naming/Name;"
+  }, {
+    "name" : "env",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljavax/naming/Name;"
+  }, {
+    "name" : "reference",
+    "typeString" : "Ljavax/naming/Reference;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/Vector;",
+  "serialVersion" : -2767605614048989439,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "capacityIncrement",
+    "typeString" : "I"
+  }, {
+    "name" : "elementCount",
+    "typeString" : "I"
+  }, {
+    "name" : "elementData",
+    "typeString" : "[Ljava/lang/Object;"
+  } ],
+  "superType" : "Ljava/util/AbstractList;"
+}, {
+  "typeString" : "Ljava/beans/PropertyChangeSupport;",
+  "serialVersion" : 6401253773779951803,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "propertyChangeSupportSerializedDataVersion",
+    "typeString" : "I"
+  }, {
+    "name" : "children",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "source",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lcom/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource;",
+  "serialVersion" : 1,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "superType" : "Lcom/mchange/v2/c3p0/impl/PoolBackedDataSourceBase;"
+}, {
+  "typeString" : "Ljava/util/Map;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lcom/mchange/v2/c3p0/PoolBackedDataSource;",
+  "serialVersion" : -2440162180985815128,
+  "fields" : [ ],
+  "superType" : "Lcom/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource;"
+} ]

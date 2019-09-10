@@ -1,0 +1,9 @@
+org.springframework.transaction.jta.JtaTransactionManager
+org.springframework.core.SerializableTypeWrapper$TypeProvider
+org.springframework.core.SerializableTypeWrapper$MethodInvokeTypeProvider
+org.springframework.beans.factory.support.AutowireUtils$ObjectFactoryDelegatingInvocationHandler
+org.springframework.aop.framework.JdkDynamicAopProxy
+org.springframework.aop.framework.AdvisedSupport
+org.springframework.aop.target.SingletonTargetSource
+org.springframework.aop.framework.DefaultAdvisorChainFactory
+org.springframework.aop.Advisor

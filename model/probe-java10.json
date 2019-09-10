@@ -1,0 +1,335 @@
+[ {
+  "typeString" : "Ljava/awt/Color;",
+  "serialVersion" : 118526816881161077,
+  "fields" : [ {
+    "name" : "falpha",
+    "typeString" : "F"
+  }, {
+    "name" : "value",
+    "typeString" : "I"
+  }, {
+    "name" : "cs",
+    "typeString" : "Ljava/awt/color/ColorSpace;"
+  }, {
+    "name" : "frgbvalue",
+    "typeString" : "[F"
+  }, {
+    "name" : "fvalue",
+    "typeString" : "[F"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/awt/LayoutManager;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljavax/swing/event/EventListenerList;",
+  "serialVersion" : -7977902244297240866,
+  "hasWriteObject" : true,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/awt/Component;",
+  "serialVersion" : -7644114512714619750,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "autoFocusTransferOnDisposal",
+    "typeString" : "Z"
+  }, {
+    "name" : "boundsOp",
+    "typeString" : "I"
+  }, {
+    "name" : "componentSerializedDataVersion",
+    "typeString" : "I"
+  }, {
+    "name" : "enabled",
+    "typeString" : "Z"
+  }, {
+    "name" : "eventMask",
+    "typeString" : "J"
+  }, {
+    "name" : "focusTraversalKeysEnabled",
+    "typeString" : "Z"
+  }, {
+    "name" : "focusable",
+    "typeString" : "Z"
+  }, {
+    "name" : "height",
+    "typeString" : "I"
+  }, {
+    "name" : "ignoreRepaint",
+    "typeString" : "Z"
+  }, {
+    "name" : "isFocusTraversableOverridden",
+    "typeString" : "I"
+  }, {
+    "name" : "isPacked",
+    "typeString" : "Z"
+  }, {
+    "name" : "maxSizeSet",
+    "typeString" : "Z"
+  }, {
+    "name" : "minSizeSet",
+    "typeString" : "Z"
+  }, {
+    "name" : "nameExplicitlySet",
+    "typeString" : "Z"
+  }, {
+    "name" : "newEventsOnly",
+    "typeString" : "Z"
+  }, {
+    "name" : "prefSizeSet",
+    "typeString" : "Z"
+  }, {
+    "name" : "valid",
+    "typeString" : "Z"
+  }, {
+    "name" : "visible",
+    "typeString" : "Z"
+  }, {
+    "name" : "width",
+    "typeString" : "I"
+  }, {
+    "name" : "x",
+    "typeString" : "I"
+  }, {
+    "name" : "y",
+    "typeString" : "I"
+  }, {
+    "name" : "accessibleContext",
+    "typeString" : "Ljavax/accessibility/AccessibleContext;"
+  }, {
+    "name" : "background",
+    "typeString" : "Ljava/awt/Color;"
+  }, {
+    "name" : "changeSupport",
+    "typeString" : "Ljava/beans/PropertyChangeSupport;"
+  }, {
+    "name" : "cursor",
+    "typeString" : "Ljava/awt/Cursor;"
+  }, {
+    "name" : "dropTarget",
+    "typeString" : "Ljava/awt/dnd/DropTarget;"
+  }, {
+    "name" : "focusTraversalKeys",
+    "typeString" : "[Ljava/util/Set;"
+  }, {
+    "name" : "font",
+    "typeString" : "Ljava/awt/Font;"
+  }, {
+    "name" : "foreground",
+    "typeString" : "Ljava/awt/Color;"
+  }, {
+    "name" : "locale",
+    "typeString" : "Ljava/util/Locale;"
+  }, {
+    "name" : "maxSize",
+    "typeString" : "Ljava/awt/Dimension;"
+  }, {
+    "name" : "minSize",
+    "typeString" : "Ljava/awt/Dimension;"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "peerFont",
+    "typeString" : "Ljava/awt/Font;"
+  }, {
+    "name" : "popups",
+    "typeString" : "Ljava/util/Vector;"
+  }, {
+    "name" : "prefSize",
+    "typeString" : "Ljava/awt/Dimension;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/Set;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/beans/PropertyChangeSupport;",
+  "serialVersion" : 6401253773779951803,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "propertyChangeSupportSerializedDataVersion",
+    "typeString" : "I"
+  }, {
+    "name" : "children",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "source",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljava/awt/dnd/DropTargetContext;",
+  "serialVersion" : -634158968993743371,
+  "fields" : [ {
+    "name" : "dropTarget",
+    "typeString" : "Ljava/awt/dnd/DropTarget;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/Vector;",
+  "serialVersion" : -2767605614048989439,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "capacityIncrement",
+    "typeString" : "I"
+  }, {
+    "name" : "elementCount",
+    "typeString" : "I"
+  }, {
+    "name" : "elementData",
+    "typeString" : "[Ljava/lang/Object;"
+  } ],
+  "superType" : "Ljava/util/AbstractList;"
+}, {
+  "typeString" : "Ljava/awt/Font;",
+  "serialVersion" : -4206021311591459213,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "fontSerializedDataVersion",
+    "typeString" : "I"
+  }, {
+    "name" : "pointSize",
+    "typeString" : "F"
+  }, {
+    "name" : "size",
+    "typeString" : "I"
+  }, {
+    "name" : "style",
+    "typeString" : "I"
+  }, {
+    "name" : "fRequestedAttributes",
+    "typeString" : "Ljava/util/Hashtable;"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/awt/Container;",
+  "serialVersion" : 4613797578919906343,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "containerSerializedDataVersion",
+    "typeString" : "I"
+  }, {
+    "name" : "focusCycleRoot",
+    "typeString" : "Z"
+  }, {
+    "name" : "focusTraversalPolicyProvider",
+    "typeString" : "Z"
+  }, {
+    "name" : "ncomponents",
+    "typeString" : "I"
+  }, {
+    "name" : "component",
+    "typeString" : "[Ljava/awt/Component;"
+  }, {
+    "name" : "dispatcher",
+    "typeString" : "Ljava/awt/LightweightDispatcher;"
+  }, {
+    "name" : "layoutMgr",
+    "typeString" : "Ljava/awt/LayoutManager;"
+  }, {
+    "name" : "maxSize",
+    "typeString" : "Ljava/awt/Dimension;"
+  } ],
+  "superType" : "Ljava/awt/Component;"
+}, {
+  "typeString" : "Ljava/util/Locale;",
+  "serialVersion" : 9149081749638150636,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "hashcode",
+    "typeString" : "I"
+  }, {
+    "name" : "country",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "extensions",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "language",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "script",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "variant",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/awt/LightweightDispatcher;",
+  "serialVersion" : 5184291520170872969,
+  "fields" : [ {
+    "name" : "eventMask",
+    "typeString" : "J"
+  }, {
+    "name" : "focus",
+    "typeString" : "Ljava/awt/Component;"
+  }, {
+    "name" : "nativeContainer",
+    "typeString" : "Ljava/awt/Container;"
+  }, {
+    "name" : "nativeCursor",
+    "typeString" : "Ljava/awt/Cursor;"
+  } ]
+}, {
+  "typeString" : "Ljava/awt/Cursor;",
+  "serialVersion" : 8028237497568985504,
+  "fields" : [ {
+    "name" : "type",
+    "typeString" : "I"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/awt/Dimension;",
+  "serialVersion" : 4723952579491349524,
+  "fields" : [ {
+    "name" : "height",
+    "typeString" : "I"
+  }, {
+    "name" : "width",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/awt/geom/Dimension2D;"
+}, {
+  "typeString" : "Ljava/util/Hashtable;",
+  "serialVersion" : 1421746759512286392,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/Dictionary;"
+}, {
+  "typeString" : "Ljava/awt/dnd/DropTarget;",
+  "serialVersion" : -6283860791671019047,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "actions",
+    "typeString" : "I"
+  }, {
+    "name" : "active",
+    "typeString" : "Z"
+  }, {
+    "name" : "component",
+    "typeString" : "Ljava/awt/Component;"
+  }, {
+    "name" : "dropTargetContext",
+    "typeString" : "Ljava/awt/dnd/DropTargetContext;"
+  } ]
+}, {
+  "typeString" : "Ljava/awt/color/ColorSpace;",
+  "serialVersion" : -409452704308689724,
+  "fields" : [ {
+    "name" : "numComponents",
+    "typeString" : "I"
+  }, {
+    "name" : "type",
+    "typeString" : "I"
+  } ]
+} ]

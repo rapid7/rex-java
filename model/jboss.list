@@ -1,0 +1,10 @@
+org.jboss.interceptor.reader.SimpleInterceptorMetadata
+org.jboss.interceptor.reader.ClassMetadataInterceptorReference
+org.jboss.interceptor.reader.DefaultMethodMetadata
+org.jboss.interceptor.builder.InterceptionModelImpl
+org.jboss.interceptor.spi.model.InterceptionType
+org.jboss.interceptor.proxy.InterceptorMethodHandler
+org.jboss.interceptor.proxy.DefaultInvocationContextFactory
+org.jboss.interceptor.reader.ReflectiveClassMetadata
+org.jboss.interceptor.reader.DefaultMethodMetadata$DefaultMethodMetadataSerializationProxy
+org.jboss.interceptor.builder.MethodReference

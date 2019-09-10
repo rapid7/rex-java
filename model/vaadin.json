@@ -1,0 +1,70 @@
+[ {
+  "typeString" : "Lcom/vaadin/data/util/NestedMethodProperty;",
+  "serialVersion" : 6242635371098225051,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "instance",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "propertyName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "type",
+    "typeString" : "Ljava/lang/Class;"
+  } ],
+  "superType" : "Lcom/vaadin/data/util/AbstractProperty;"
+}, {
+  "typeString" : "Lcom/vaadin/data/util/PropertysetItem;",
+  "serialVersion" : -7292744331720624489,
+  "fields" : [ {
+    "name" : "list",
+    "typeString" : "Ljava/util/LinkedList;"
+  }, {
+    "name" : "map",
+    "typeString" : "Ljava/util/HashMap;"
+  }, {
+    "name" : "propertySetChangeListeners",
+    "typeString" : "Ljava/util/LinkedList;"
+  } ]
+}, {
+  "typeString" : "Lcom/vaadin/data/util/AbstractProperty;",
+  "serialVersion" : -4871029568270561122,
+  "fields" : [ {
+    "name" : "readOnly",
+    "typeString" : "Z"
+  }, {
+    "name" : "readOnlyStatusChangeListeners",
+    "typeString" : "Ljava/util/LinkedList;"
+  }, {
+    "name" : "valueChangeListeners",
+    "typeString" : "Ljava/util/LinkedList;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/LinkedList;",
+  "serialVersion" : 876323262645176354,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "superType" : "Ljava/util/AbstractSequentialList;"
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/HashMap;",
+  "serialVersion" : 362498820763181265,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/AbstractMap;"
+} ]

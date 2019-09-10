@@ -1,0 +1,97 @@
+[ {
+  "typeString" : "Lcom/sun/syndication/feed/impl/ToStringBean;",
+  "serialVersion" : 717636164368199217,
+  "fields" : [ {
+    "name" : "_beanClass",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "_obj",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lcom/rometools/rome/feed/impl/CloneableBean;",
+  "serialVersion" : 1,
+  "fields" : [ {
+    "name" : "ignoreProperties",
+    "typeString" : "Ljava/util/Set;"
+  }, {
+    "name" : "obj",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lcom/sun/syndication/feed/impl/ObjectBean;",
+  "serialVersion" : -9036182525298043830,
+  "fields" : [ {
+    "name" : "_cloneableBean",
+    "typeString" : "Lcom/sun/syndication/feed/impl/CloneableBean;"
+  }, {
+    "name" : "_equalsBean",
+    "typeString" : "Lcom/sun/syndication/feed/impl/EqualsBean;"
+  }, {
+    "name" : "_toStringBean",
+    "typeString" : "Lcom/sun/syndication/feed/impl/ToStringBean;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lcom/sun/syndication/feed/impl/CloneableBean;",
+  "serialVersion" : -2494506262942749833,
+  "fields" : [ {
+    "name" : "_ignoreProperties",
+    "typeString" : "Ljava/util/Set;"
+  }, {
+    "name" : "_obj",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lcom/rometools/rome/feed/impl/ObjectBean;",
+  "serialVersion" : 1,
+  "fields" : [ {
+    "name" : "cloneableBean",
+    "typeString" : "Lcom/rometools/rome/feed/impl/CloneableBean;"
+  }, {
+    "name" : "equalsBean",
+    "typeString" : "Lcom/rometools/rome/feed/impl/EqualsBean;"
+  }, {
+    "name" : "toStringBean",
+    "typeString" : "Lcom/rometools/rome/feed/impl/ToStringBean;"
+  } ]
+}, {
+  "typeString" : "Lcom/sun/syndication/feed/impl/EqualsBean;",
+  "serialVersion" : -753762792335075311,
+  "fields" : [ {
+    "name" : "_beanClass",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "_obj",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lcom/rometools/rome/feed/impl/ToStringBean;",
+  "serialVersion" : 1,
+  "fields" : [ {
+    "name" : "beanClass",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "obj",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/Set;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lcom/rometools/rome/feed/impl/EqualsBean;",
+  "serialVersion" : 1,
+  "fields" : [ {
+    "name" : "beanClass",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "obj",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+} ]

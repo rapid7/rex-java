@@ -1,0 +1,294 @@
+[ {
+  "typeString" : "Ljava/lang/Double;",
+  "serialVersion" : -9172774392245257468,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "D"
+  } ],
+  "superType" : "Ljava/lang/Number;"
+}, {
+  "typeString" : "Ljava/util/HashSet;",
+  "serialVersion" : -5024744406713321676,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "superType" : "Ljava/util/AbstractSet;"
+}, {
+  "typeString" : "Ljava/net/URL;",
+  "serialVersion" : -7627629688361524110,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "hashCode",
+    "typeString" : "I"
+  }, {
+    "name" : "port",
+    "typeString" : "I"
+  }, {
+    "name" : "authority",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "file",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "host",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "protocol",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "ref",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Lsun/reflect/annotation/AnnotationInvocationHandler;",
+  "serialVersion" : 6182022883658399397,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "memberValues",
+    "typeString" : "Ljava/util/Map;"
+  }, {
+    "name" : "type",
+    "typeString" : "Ljava/lang/Class;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/HashMap;",
+  "serialVersion" : 362498820763181265,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/AbstractMap;"
+}, {
+  "typeString" : "Ljava/util/Hashtable;",
+  "serialVersion" : 1421746759512286392,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "loadFactor",
+    "typeString" : "F"
+  }, {
+    "name" : "threshold",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/Dictionary;"
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/List;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Enum;",
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "enum" : true
+}, {
+  "typeString" : "Ljava/util/Collections$UnmodifiableSet;",
+  "serialVersion" : -9215047833775013803,
+  "fields" : [ ],
+  "superType" : "Ljava/util/Collections$UnmodifiableCollection;"
+}, {
+  "typeString" : "Ljava/util/Collection;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/Collections$ReverseComparator;",
+  "serialVersion" : 7207038068494060240,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/AbstractMap$SimpleEntry;",
+  "serialVersion" : -8499721149061103585,
+  "fields" : [ {
+    "name" : "key",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "value",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Ljavax/management/BadAttributeValueExpException;",
+  "serialVersion" : -3105272988410493376,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "val",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Ljava/lang/Exception;"
+}, {
+  "typeString" : "Ljava/lang/reflect/Proxy;",
+  "serialVersion" : -2222568056686623797,
+  "fields" : [ {
+    "name" : "h",
+    "typeString" : "Ljava/lang/reflect/InvocationHandler;"
+  } ]
+}, {
+  "typeString" : "Ljava/util/LinkedList;",
+  "serialVersion" : 876323262645176354,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "superType" : "Ljava/util/AbstractSequentialList;"
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/Map;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Integer;",
+  "serialVersion" : 1360826667806852920,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/lang/Number;"
+}, {
+  "typeString" : "Ljava/lang/StackTraceElement;",
+  "serialVersion" : 6992337162326171013,
+  "fields" : [ {
+    "name" : "lineNumber",
+    "typeString" : "I"
+  }, {
+    "name" : "declaringClass",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "fileName",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "methodName",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/Boolean;",
+  "serialVersion" : -3665804199014368530,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "Z"
+  } ]
+}, {
+  "typeString" : "Ljava/util/TreeMap;",
+  "serialVersion" : 919286545866124006,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "comparator",
+    "typeString" : "Ljava/util/Comparator;"
+  } ],
+  "superType" : "Ljava/util/AbstractMap;"
+}, {
+  "typeString" : "Ljava/lang/Number;",
+  "serialVersion" : -8742448824652078965,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Exception;",
+  "serialVersion" : -3387516993124229948,
+  "fields" : [ ],
+  "superType" : "Ljava/lang/Throwable;"
+}, {
+  "typeString" : "Ljava/lang/Short;",
+  "serialVersion" : 7515723908773894738,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "S"
+  } ],
+  "superType" : "Ljava/lang/Number;"
+}, {
+  "typeString" : "Ljava/util/Properties;",
+  "serialVersion" : 4112578634029874840,
+  "fields" : [ {
+    "name" : "defaults",
+    "typeString" : "Ljava/util/Properties;"
+  } ],
+  "superType" : "Ljava/util/Hashtable;"
+}, {
+  "typeString" : "Ljava/lang/Float;",
+  "serialVersion" : -2671257302660747028,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "F"
+  } ],
+  "superType" : "Ljava/lang/Number;"
+}, {
+  "typeString" : "Ljava/util/ArrayList;",
+  "serialVersion" : 8683452581122892189,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "size",
+    "typeString" : "I"
+  } ],
+  "superType" : "Ljava/util/AbstractList;"
+}, {
+  "typeString" : "Ljava/util/Collections$UnmodifiableMap$UnmodifiableEntrySet;",
+  "serialVersion" : 7854390611657943733,
+  "fields" : [ ],
+  "superType" : "Ljava/util/Collections$UnmodifiableSet;"
+}, {
+  "typeString" : "Ljava/lang/Character;",
+  "serialVersion" : 3786198910865385080,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "C"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/reflect/InvocationHandler;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Throwable;",
+  "serialVersion" : -3042686055658047285,
+  "hasWriteObject" : true,
+  "fields" : [ {
+    "name" : "cause",
+    "typeString" : "Ljava/lang/Throwable;"
+  }, {
+    "name" : "detailMessage",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "stackTrace",
+    "typeString" : "[Ljava/lang/StackTraceElement;"
+  }, {
+    "name" : "suppressedExceptions",
+    "typeString" : "Ljava/util/List;"
+  } ]
+}, {
+  "typeString" : "Ljava/lang/String;",
+  "serialVersion" : -6849794470754667710,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Long;",
+  "serialVersion" : 4290774380558885855,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "J"
+  } ],
+  "superType" : "Ljava/lang/Number;"
+}, {
+  "typeString" : "Ljava/util/Comparator;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/PriorityQueue;",
+  "serialVersion" : -7720805057305804111,
+  "hasWriteObject" : true,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "size",
+    "typeString" : "I"
+  }, {
+    "name" : "comparator",
+    "typeString" : "Ljava/util/Comparator;"
+  } ],
+  "superType" : "Ljava/util/AbstractQueue;"
+}, {
+  "typeString" : "Ljava/util/Collections$UnmodifiableCollection;",
+  "serialVersion" : 1820017752578914078,
+  "fields" : [ {
+    "name" : "c",
+    "typeString" : "Ljava/util/Collection;"
+  } ]
+} ]

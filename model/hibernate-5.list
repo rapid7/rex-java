@@ -1,0 +1,6 @@
+org.hibernate.type.ComponentType
+org.hibernate.tuple.component.PojoComponentTuplizer
+org.hibernate.engine.spi.TypedValue
+org.hibernate.property.access.spi.Getter
+org.hibernate.property.access.spi.GetterMethodImpl
+org.hibernate.property.access.spi.GetterMethodImpl$SerialForm

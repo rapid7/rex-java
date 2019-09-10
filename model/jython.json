@@ -1,0 +1,292 @@
+[ {
+  "typeString" : "Lorg/python/core/PyBytecode;",
+  "serialVersion" : -6010342697849248238,
+  "fields" : [ {
+    "name" : "co_stacksize",
+    "typeString" : "I"
+  }, {
+    "name" : "count",
+    "typeString" : "I"
+  }, {
+    "name" : "debug",
+    "typeString" : "Z"
+  }, {
+    "name" : "maxCount",
+    "typeString" : "I"
+  }, {
+    "name" : "co_code",
+    "typeString" : "[B"
+  }, {
+    "name" : "co_consts",
+    "typeString" : "[Lorg/python/core/PyObject;"
+  }, {
+    "name" : "co_lnotab",
+    "typeString" : "[B"
+  }, {
+    "name" : "co_names",
+    "typeString" : "[Ljava/lang/String;"
+  } ],
+  "superType" : "Lorg/python/core/PyBaseCode;"
+}, {
+  "typeString" : "Lorg/python/core/PyFunction;",
+  "serialVersion" : -1860037304336861614,
+  "fields" : [ {
+    "name" : "__dict__",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "__doc__",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "__module__",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "__name__",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "func_closure",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "func_code",
+    "typeString" : "Lorg/python/core/PyCode;"
+  }, {
+    "name" : "func_defaults",
+    "typeString" : "[Lorg/python/core/PyObject;"
+  }, {
+    "name" : "func_globals",
+    "typeString" : "Lorg/python/core/PyObject;"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+}, {
+  "typeString" : "Lorg/python/core/PyObject;",
+  "serialVersion" : -5518487409570819225,
+  "fields" : [ {
+    "name" : "javaProxy",
+    "typeString" : "Ljava/lang/Object;"
+  }, {
+    "name" : "objtype",
+    "typeString" : "Lorg/python/core/PyType;"
+  } ]
+}, {
+  "typeString" : "Lorg/python/core/PyStringMap;",
+  "serialVersion" : -5465968074169113479,
+  "fields" : [ {
+    "name" : "table",
+    "typeString" : "Ljava/util/concurrent/ConcurrentMap;"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+}, {
+  "typeString" : "Lorg/python/core/PyReflectedFunction;",
+  "serialVersion" : -3545090006873206965,
+  "fields" : [ {
+    "name" : "calledStatically",
+    "typeString" : "Z"
+  }, {
+    "name" : "nargs",
+    "typeString" : "I"
+  }, {
+    "name" : "__doc__",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "__name__",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "argslist",
+    "typeString" : "[Lorg/python/core/ReflectedArgs;"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+}, {
+  "typeString" : "Ljava/util/concurrent/ConcurrentMap;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/python/core/PyCode;",
+  "serialVersion" : 8382437034870097211,
+  "fields" : [ {
+    "name" : "co_name",
+    "typeString" : "Ljava/lang/String;"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+}, {
+  "typeString" : "Lorg/python/core/PyBaseCode;",
+  "serialVersion" : 6806861276443284596,
+  "fields" : [ {
+    "name" : "co_argcount",
+    "typeString" : "I"
+  }, {
+    "name" : "co_firstlineno",
+    "typeString" : "I"
+  }, {
+    "name" : "co_nlocals",
+    "typeString" : "I"
+  }, {
+    "name" : "jy_npurecell",
+    "typeString" : "I"
+  }, {
+    "name" : "nargs",
+    "typeString" : "I"
+  }, {
+    "name" : "varargs",
+    "typeString" : "Z"
+  }, {
+    "name" : "varkwargs",
+    "typeString" : "Z"
+  }, {
+    "name" : "co_cellvars",
+    "typeString" : "[Ljava/lang/String;"
+  }, {
+    "name" : "co_filename",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "co_flags",
+    "typeString" : "Lorg/python/core/CompilerFlags;"
+  }, {
+    "name" : "co_freevars",
+    "typeString" : "[Ljava/lang/String;"
+  }, {
+    "name" : "co_varnames",
+    "typeString" : "[Ljava/lang/String;"
+  } ],
+  "superType" : "Lorg/python/core/PyCode;"
+}, {
+  "typeString" : "Ljava/lang/String;",
+  "serialVersion" : -6849794470754667710,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/util/Set;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/python/core/PyObjectDerived;",
+  "serialVersion" : 9156114181463235831,
+  "fields" : [ {
+    "name" : "dict",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "slots",
+    "typeString" : "[Lorg/python/core/PyObject;"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+}, {
+  "typeString" : "Lorg/python/core/CompilerFlags;",
+  "serialVersion" : 7834076451161444367,
+  "fields" : [ {
+    "name" : "dont_imply_dedent",
+    "typeString" : "Z"
+  }, {
+    "name" : "only_ast",
+    "typeString" : "Z"
+  }, {
+    "name" : "source_is_utf8",
+    "typeString" : "Z"
+  }, {
+    "name" : "encoding",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "flags",
+    "typeString" : "Ljava/util/Set;"
+  } ]
+}, {
+  "typeString" : "Lorg/python/core/PyJavaType;",
+  "serialVersion" : -5810236262496764430,
+  "hasWriteReplace" : true,
+  "fields" : [ {
+    "name" : "conflicted",
+    "typeString" : "Ljava/util/Set;"
+  }, {
+    "name" : "modified",
+    "typeString" : "Ljava/util/Set;"
+  } ],
+  "superType" : "Lorg/python/core/PyType;"
+}, {
+  "typeString" : "Lorg/python/core/PyInteger;",
+  "serialVersion" : 3781138802098918375,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "I"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/python/core/PyType$TypeResolver;",
+  "serialVersion" : 8899486446891723513,
+  "fields" : [ {
+    "name" : "module",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "underlying_class",
+    "typeString" : "Ljava/lang/Class;"
+  } ]
+}, {
+  "typeString" : "Lorg/python/core/PyType;",
+  "serialVersion" : -3918675533294426895,
+  "hasWriteReplace" : true,
+  "fields" : [ {
+    "name" : "builtin",
+    "typeString" : "Z"
+  }, {
+    "name" : "hasDelete",
+    "typeString" : "Z"
+  }, {
+    "name" : "hasGet",
+    "typeString" : "Z"
+  }, {
+    "name" : "hasSet",
+    "typeString" : "Z"
+  }, {
+    "name" : "instantiable",
+    "typeString" : "Z"
+  }, {
+    "name" : "isBaseType",
+    "typeString" : "Z"
+  }, {
+    "name" : "needs_finalizer",
+    "typeString" : "Z"
+  }, {
+    "name" : "needs_userdict",
+    "typeString" : "Z"
+  }, {
+    "name" : "needs_weakref",
+    "typeString" : "Z"
+  }, {
+    "name" : "numSlots",
+    "typeString" : "I"
+  }, {
+    "name" : "tp_flags",
+    "typeString" : "J"
+  }, {
+    "name" : "usesObjectGetattribute",
+    "typeString" : "Z"
+  }, {
+    "name" : "base",
+    "typeString" : "Lorg/python/core/PyType;"
+  }, {
+    "name" : "bases",
+    "typeString" : "[Lorg/python/core/PyObject;"
+  }, {
+    "name" : "dict",
+    "typeString" : "Lorg/python/core/PyObject;"
+  }, {
+    "name" : "mro",
+    "typeString" : "[Lorg/python/core/PyObject;"
+  }, {
+    "name" : "name",
+    "typeString" : "Ljava/lang/String;"
+  }, {
+    "name" : "subclasses",
+    "typeString" : "Ljava/util/Set;"
+  }, {
+    "name" : "underlying_class",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "versionTag",
+    "typeString" : "Ljava/lang/Object;"
+  } ],
+  "superType" : "Lorg/python/core/PyObject;"
+} ]

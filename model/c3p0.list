@@ -1,0 +1,3 @@
+com.mchange.v2.c3p0.PoolBackedDataSource
+com.mchange.v2.ser.IndirectlySerialized
+com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized

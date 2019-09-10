@@ -1,0 +1,4 @@
+org.codehaus.groovy.runtime.MethodClosure
+groovy.lang.GString
+org.codehaus.groovy.runtime.GStringImpl
+org.codehaus.groovy.runtime.ConvertedClosure

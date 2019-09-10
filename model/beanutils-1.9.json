@@ -1,0 +1,11 @@
+[ {
+  "typeString" : "Lorg/apache/commons/beanutils/BeanComparator;",
+  "serialVersion" : -2044202215314119608,
+  "fields" : [ {
+    "name" : "comparator",
+    "typeString" : "Ljava/util/Comparator;"
+  }, {
+    "name" : "property",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+} ]

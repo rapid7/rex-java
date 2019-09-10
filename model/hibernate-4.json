@@ -1,0 +1,162 @@
+[ {
+  "typeString" : "Lorg/hibernate/type/AbstractType;",
+  "serialVersion" : -428752683973550783,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/type/Type;",
+  "serialVersion" : 5177457618760416820,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/tuple/component/AbstractComponentTuplizer;",
+  "serialVersion" : -3525658377427753356,
+  "fields" : [ {
+    "name" : "hasCustomAccessors",
+    "typeString" : "Z"
+  }, {
+    "name" : "propertySpan",
+    "typeString" : "I"
+  }, {
+    "name" : "getters",
+    "typeString" : "[Lorg/hibernate/property/Getter;"
+  }, {
+    "name" : "instantiator",
+    "typeString" : "Lorg/hibernate/tuple/Instantiator;"
+  }, {
+    "name" : "setters",
+    "typeString" : "[Lorg/hibernate/property/Setter;"
+  } ]
+}, {
+  "typeString" : "Lorg/hibernate/property/Setter;",
+  "serialVersion" : -6745683069234095830,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/engine/spi/TypedValue;",
+  "serialVersion" : -8680665526589855940,
+  "hasReadObject" : true,
+  "fields" : [ {
+    "name" : "type",
+    "typeString" : "Lorg/hibernate/type/Type;"
+  }, {
+    "name" : "value",
+    "typeString" : "Ljava/lang/Object;"
+  } ]
+}, {
+  "typeString" : "Lorg/hibernate/property/Getter;",
+  "serialVersion" : 397515195902559519,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/String;",
+  "serialVersion" : -6849794470754667710,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/type/TypeFactory$TypeScope;",
+  "serialVersion" : 3614522643339994215,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/tuple/component/ComponentTuplizer;",
+  "serialVersion" : -2476040061153334362,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/tuple/component/PojoComponentTuplizer;",
+  "serialVersion" : -5359754618174240518,
+  "fields" : [ {
+    "name" : "componentClass",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "optimizer",
+    "typeString" : "Lorg/hibernate/bytecode/spi/ReflectionOptimizer;"
+  }, {
+    "name" : "parentGetter",
+    "typeString" : "Lorg/hibernate/property/Getter;"
+  }, {
+    "name" : "parentSetter",
+    "typeString" : "Lorg/hibernate/property/Setter;"
+  } ],
+  "superType" : "Lorg/hibernate/tuple/component/AbstractComponentTuplizer;"
+}, {
+  "typeString" : "Ljava/lang/Object;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Boolean;",
+  "serialVersion" : -3665804199014368530,
+  "fields" : [ {
+    "name" : "value",
+    "typeString" : "Z"
+  } ]
+}, {
+  "typeString" : "Lorg/hibernate/engine/spi/CascadeStyle;",
+  "serialVersion" : 4355004824407838893,
+  "fields" : [ ]
+}, {
+  "typeString" : "Ljava/lang/Class;",
+  "serialVersion" : 3206093459760846163,
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/property/BasicPropertyAccessor$BasicGetter;",
+  "serialVersion" : -1730479313547071044,
+  "fields" : [ {
+    "name" : "clazz",
+    "typeString" : "Ljava/lang/Class;"
+  }, {
+    "name" : "propertyName",
+    "typeString" : "Ljava/lang/String;"
+  } ]
+}, {
+  "typeString" : "Lorg/hibernate/FetchMode;",
+  "fields" : [ ],
+  "superType" : "Ljava/lang/Enum;",
+  "enum" : true
+}, {
+  "typeString" : "Lorg/hibernate/bytecode/spi/ReflectionOptimizer;",
+  "fields" : [ ]
+}, {
+  "typeString" : "Lorg/hibernate/type/ComponentType;",
+  "serialVersion" : 5417013436894856053,
+  "fields" : [ {
+    "name" : "hasNotNullProperty",
+    "typeString" : "Z"
+  }, {
+    "name" : "isKey",
+    "typeString" : "Z"
+  }, {
+    "name" : "propertySpan",
+    "typeString" : "I"
+  }, {
+    "name" : "canDoExtraction",
+    "typeString" : "Ljava/lang/Boolean;"
+  }, {
+    "name" : "cascade",
+    "typeString" : "[Lorg/hibernate/engine/spi/CascadeStyle;"
+  }, {
+    "name" : "componentTuplizer",
+    "typeString" : "Lorg/hibernate/tuple/component/ComponentTuplizer;"
+  }, {
+    "name" : "entityMode",
+    "typeString" : "Lorg/hibernate/EntityMode;"
+  }, {
+    "name" : "joinedFetch",
+    "typeString" : "[Lorg/hibernate/FetchMode;"
+  }, {
+    "name" : "propertyNames",
+    "typeString" : "[Ljava/lang/String;"
+  }, {
+    "name" : "propertyNullability",
+    "typeString" : "[Z"
+  }, {
+    "name" : "propertyTypes",
+    "typeString" : "[Lorg/hibernate/type/Type;"
+  }, {
+    "name" : "typeScope",
+    "typeString" : "Lorg/hibernate/type/TypeFactory$TypeScope;"
+  } ],
+  "superType" : "Lorg/hibernate/type/AbstractType;"
+}, {
+  "typeString" : "Ljava/lang/Enum;",
+  "hasReadObject" : true,
+  "fields" : [ ],
+  "enum" : true
+}, {
+  "typeString" : "Lorg/hibernate/tuple/Instantiator;",
+  "serialVersion" : 4630251929365053311,
+  "fields" : [ ]
+} ]

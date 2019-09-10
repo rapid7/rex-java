@@ -1,0 +1,6 @@
+[ {
+  "typeString" : "Lcom/atomikos/icatch/jta/RemoteClientUserTransaction;",
+  "serialVersion" : -2275872570956387075,
+  "externalizable" : true,
+  "fields" : [ ]
+} ]

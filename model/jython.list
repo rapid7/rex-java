@@ -1,0 +1,11 @@
+org.python.core.PyObjectDerived
+org.python.core.PyBytecode
+org.python.core.CompilerFlags
+org.python.core.PyObject
+org.python.core.PyInteger
+org.python.core.PyStringMap
+org.python.core.PyFunction
+org.python.core.PyType
+org.python.core.PyJavaType
+org.python.core.PyType$TypeResolver
+org.python.core.PyReflectedFunction

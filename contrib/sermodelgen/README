@@ -1,0 +1,11 @@
+Java Serialization Model Generator
+
+This tool, from specified classes and their loaded classes, generates
+a meta representation (JSON format) with the data required for properly 
+serializing them.
+
+Build: mvn build
+
+Usage: java -cp <library JARS..>:target/sermodelgen-0.0.1-SNAPSHOT.jar sermodelgen.Main <class names...>
+
+If no class names are specified the list of classes is read from standard input.

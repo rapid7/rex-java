@@ -13,10 +13,14 @@ module Rex
 
         class BuiltinProbes
           @@probes = []
+          @@initialized = false
 
           def initialize
-            Dir[File.dirname(__FILE__) + '/probes/*.rb'].sort.each do |file|
-              Kernel.load file, wrap: true
+            if not @@initialized
+              @@initialized = true
+              Dir[File.dirname(__FILE__) + '/probes/*.rb'].sort.each do |file|
+                Kernel.load file, wrap: true
+              end
             end
           end
 

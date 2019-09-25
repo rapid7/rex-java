@@ -20,8 +20,6 @@ module Rex
             @lastt = baseline
             @testDepth = 0
 
-            puts '[I] Trying to autodetect timing...'
-
             for nestDepth in 5..15
               t = time { @test.call(P::DOS.make_hash_dos(2 * nestDepth), reg, ctx.params) }
               if t > 3 * @lastt
@@ -76,7 +74,6 @@ module Rex
               probe.false(ctx)
               return false
             else
-              puts probe, t
               probe.true(ctx)
               return true
             end

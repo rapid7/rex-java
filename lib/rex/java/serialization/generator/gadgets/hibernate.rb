@@ -27,9 +27,11 @@ class HibernateValidator < S::Generator::Gadget
     if ctx.flag?('hibernate-validator5') ||
        ctx.class?('org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy')
       ver = 5
+      ctx.reg.load('model/hibernate-validator-5.json')
     elsif ctx.flag?('hibernate-validator6') ||
           ctx.class?('org.hibernate.validator.internal.util.annotation.AnnotationProxy')
       ver = 6
+      ctx.reg.load('model/hibernate-validator-6.json')
     else
       raise 'Unsupported'
     end

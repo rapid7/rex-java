@@ -58,6 +58,10 @@ module Rex
             @gadgets.include?(g)
           end
 
+          def error(msg)
+            puts msg
+          end
+
           def report
             @gadgets.each do |gadget|
 #              vuln 'Found gadget: ' + gadget

@@ -27,7 +27,7 @@ P::register [
                                                               ctx.gadget('c3p0')
                                                               ctx.flag('c3p0-legacy')
                                                             end,
-                                                            f: ->(_ctx) { error 'Incompatible C3P0' }
+                                                            f: ->(_ctx) { _ctx.error('Incompatible C3P0') }
                                                 ))
                                               end
                                   ))
@@ -39,7 +39,7 @@ P::register [
                                                  'org.apache.commons.fileupload.disk.DiskFileItem',
                                                  desc: { 'serialVersion' => -8_653_385_846_894_047_688 },
                                                  t: ->(ctx) { ctx.gadget('fileupload') },
-                                                 f: ->(_ctx) { error 'Incompatible commons-fileupload' }
+                                                 f: ->(_ctx) { _ctx.error('Incompatible commons-fileupload') }
                                      ))
                                    }),
 

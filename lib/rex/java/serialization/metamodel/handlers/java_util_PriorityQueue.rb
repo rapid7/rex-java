@@ -12,4 +12,17 @@ class Java_util_PriorityQueue < Rex::Java::Serialization::Metamodel::ObjectHandl
       stream.writeObject(elem)
     end
   end
+
+  def readObject(stream, desc)
+    fields = stream.defaultReadObject(desc)
+
+    nelems = fields['size'].unpack('i>')[0]
+    elems = []
+    stream.read_blockdata()
+    for i in 0..nelems-1
+      elems.push(stream.read_object)
+    end
+    fields['elements'] = elems
+    fields
+  end
 end

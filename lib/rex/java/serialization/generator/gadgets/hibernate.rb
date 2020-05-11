@@ -63,7 +63,7 @@ class Hibernate < S::Generator::Gadget
     return false unless ctx.gadget?('hibernate')
 
     unless params.fetch('classfiles', nil).nil?
-      return false unless S::Payloads::Templates.supported(ctx,params)
+      return false unless S::Generator::Templates.supported(ctx,params)
     end
 
     true
@@ -85,7 +85,7 @@ class Hibernate < S::Generator::Gadget
 
     if !params.fetch('classfiles', nil).nil?
       S::Payloads::Hibernate.hibernate_invoke_noarg(
-        S::Generator::Templates.make(params['classfiles']), 
+        S::Generator::Templates.make(ctx,params), 
         'Ljavax/xml/transform/Templates;', 
         'getOutputProperties', 
         ver: ver)

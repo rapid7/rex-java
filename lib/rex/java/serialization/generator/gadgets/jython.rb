@@ -12,7 +12,7 @@ class Jython < S::Generator::Gadget
     return false unless ctx.gadget?('jython')
 
     unless params.fetch('classfiles', nil).nil?
-      return false unless S::Generator::Payloads::Templates.supported(ctx, params)
+      return false unless S::Generator::Templates.supported(ctx, params)
     end
 
     true

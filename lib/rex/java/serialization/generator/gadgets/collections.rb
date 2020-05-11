@@ -32,7 +32,7 @@ class Collections < S::Generator::Gadget
       S::Payloads::Collections.make_runtime_exec(params['cmd'], ver = ver)
     elsif !params.fetch('classfiles', nil).nil?
       S::Payloads::Collections.make_invoke_noarg(
-        S::Payloads::Templates.make(ctx,params), 
+        S::Generator::Templates.make(ctx,params), 
         'newTransformer', 
         ver = ver)
     else

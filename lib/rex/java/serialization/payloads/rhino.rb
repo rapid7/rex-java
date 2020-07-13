@@ -7,7 +7,7 @@ module Rex
     module Serialization
       module Payloads
         class Rhino
-          def make_get_property(obj, prop)
+          def self.make_get_property(obj, prop)
             top = Model::JavaObject.new('Lorg/mozilla/javascript/NativeObject;', 
                                         'associatedValues' => Model::JavaObject.new('Ljava/util/HashMap;', 
                                                                                     'elements' => {

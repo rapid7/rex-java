@@ -22,7 +22,7 @@ class Rhino < S::Generator::Gadget
     ctx.reg.load('model/rhino.json')
 
     if !params.fetch('classfiles', nil).nil?
-      S::Generator::Rhino.make_get_property(
+      S::Payloads::Rhino.make_get_property(
         S::Generator::Templates.make(ctx,params), 'outputProperties')
     else
       raise 'Missing parameters'

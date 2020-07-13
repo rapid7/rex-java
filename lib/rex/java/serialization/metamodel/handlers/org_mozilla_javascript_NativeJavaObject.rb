@@ -7,7 +7,7 @@ class Org_mozilla_javascript_NativeJavaObject < Rex::Java::Serialization::Metamo
       stream.writeByte(1) # isAdapter
 
       stream.writeObject('java.lang.Object')
-      stream.writeObject(Java::Serialize::JavaArray.new('Ljava/lang/String;', []))
+      stream.writeObject(Rex::Java::Serialization::Metamodel::JavaArray.new('Ljava/lang/String;', []))
       stream.writeObject(obj.fields.fetch('scriptable', nil))
     else
       stream.writeByte(0) # isAdapter
